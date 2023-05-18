@@ -2,7 +2,7 @@ import React from 'react'
 
 const Pagebar = () => {
     return (
-        <div className='pagebar'>
+        <page>
             <div className="home">
                 <li>HOME</li>
             </div>
@@ -12,7 +12,7 @@ const Pagebar = () => {
             <div className="fusen">
                 <li>付箋</li>
             </div>
-        </div>
+        </page>
     )
 }
 
