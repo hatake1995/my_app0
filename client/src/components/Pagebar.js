@@ -4,13 +4,13 @@ const Pagebar = () => {
     return (
         <page>
             <div className="home">
-                <li>HOME</li>
+                <a href="/">HOME</a>
             </div>
             <div className="youshi">
-                <li>画用紙</li>
+                <a href="/youshi">画用紙</a>
             </div>
             <div className="fusen">
-                <li>付箋</li>
+                <a href="/husen">付箋</a>
             </div>
         </page>
     )
